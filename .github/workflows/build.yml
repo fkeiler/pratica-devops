@@ -2,6 +2,7 @@ name: "Build Project"
 on: [push]
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout para main
         uses: actions/checkout@v2
